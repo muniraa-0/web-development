@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>My school's webpage</title>
+</head>
+<body>
+    <p>My school's webpage</p>
+    <b>My school is one of the esteemed schools in our area, named </b> <mark>Pranhari Ameen Academy.</mark> <strong>Our School has 4 buildings including with a large playing field.</strong> <em>Our school is decorated a beuatiful flower garden at the front gate.</em> <br>we have 48 teachers in total <small>and 3000 students in total.</small> <i>Our school is neat and clean overall and all of our teachers and staffs are really respectful.</i><del>everybody keeps their duty as their first priority and that's why i love my school so much.</del> <strong>hope you liked my paragraph. :)</strong> <p>H <sub>2</sub> O</p>
+    <p>4 <sup>2</sup> =16</p>
+    <a href="https://www.sohopathi.com/p-h-ameen-academy/">For more information!</a>
+    <table border="5"> 
+<tr>
+    <th>student name</th>
+    <th>total number</th>
+    <th>rank</th>
+</tr>
+<tr>
+    <td>Maliha Begum</td>
+    <td>915/1000</td>
+    <td>01</td>
+</tr>
+
+<tr>
+    <td>Munira Nigar</td>
+    <td>900/1000</td>
+    <td>02</td>
+</tr>
+<tr>
+    <td>Enteha Hasan Soha</td>
+    <td>878/1000</td>
+    <td>03</td>
+</tr>
+    </table>
+    <h2><mark>section division [boys]</mark></h2>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <h2>Section division [girls]</h2>
+    <ol>
+        <li>D</li>
+        <LI>E</LI>
+        <LI>F</LI>
+    </ol>
+</body>
