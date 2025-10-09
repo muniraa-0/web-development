@@ -1,0 +1,36 @@
+/*Attribute Selector*/
+input[type="text"] {
+border: 2px solid greenyellow;
+}
+
+/*Child selector*/
+ul > li {
+    color: aquamarine;
+    font-size: 50px;
+}
+
+/*Sibling Selector*/
+h1 + p {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+li:nth-child(3) {
+    background-color: rgb(13, 88, 150);
+}
+
+a:hover{
+    color: brown;
+    font-size: 50px;
+}
+
+p::after {
+    content: "😂";
+}
+p::before {
+    content: "😂";
+}
+
+h4::first-letter {
+    font-size: 40px;
+    color: rgb(73, 43, 5);
+}
