@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Javascript array</h1>
+        <p id="fruits"></p>
+        <p id="join"></p>
+        <p id="pop"></p>
+    </body>
+    <script>
+        var fruits = ["Apple", "Strawberry", "Banana", "Pineapple"];
+        //Accessing an array element
+        document.write(fruits[1])
+
+        //addidng an elemnt to the array
+        fruits.push("Date");
+
+        //Joining array elements into a string
+        document.getElementById("join").innerHTML = fruits.join(" -  ");
+
+        //Removing the last element from the array
+        fruits.pop();
+        document.getElementById("pop").innerHTML = fruits
+    </script>
+</html>
