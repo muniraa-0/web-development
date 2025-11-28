@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Javascript class inheritence with Static method</h1>
+        <script>
+            class car {
+                constructor(brand) {
+                    this.brand = brand;
+                }
+                static modelInfo() {
+                    return "Cars have various models.";
+                }
+            }
+            class ElectricCar extends car {
+                constructor(brand,batteryCapacity) {
+                    super(brand);
+                    this.batteryCapacity = batteryCapacity;
+                }
+                static batteryInfo() {
+                    return "Electric cars have batteries with different capacities.";
+                }
+            }
+            myElectricCar = new ElectricCar("Tesla", "100 kmh");
+            document.write(
+                "My electric car is a" +myElectricCar.brand+" with a battery capacity od "+myElectricCar.batteryCapacity+".<br>"
+            );
+            document.write(car.modelInfo() + "<br>" );
+            document.write(ElectricCar.batteryInfo())
+        </script>
+    </body>
+</html>
