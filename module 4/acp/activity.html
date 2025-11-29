@@ -2,17 +2,19 @@
 <html>
     <head></head>
     <body>
-        <h1>Javascript strings and loops</h1>
-        <p>Numbers from 1 to 9</p>
-        <p id="result"></p>
+        <h1>random numbers,rounded value and current date.</h1>
+        <script>
+            //print random set of numbers using loops
+            document.write("<h3>Random set of numbers:</h3>");
+            for (var i = 0; i < 10; i++) {
+                var randomNum = math.random();//random number between 0-1
+                document.write(randomNum.toFixed(2) +"<br>");  //rounded to 2 decimal places
+            }
+            //print current date
+            document.write("<br>")
+            var today = new Date
+            document.write("<h3>current date:</h3>");
+            document.write(today.toDateString());
+        </script>
     </body>
-    <script>
-        var number = "";
-        for (i = 1; i < 11; i++) {
-            number += i + <"br">;
-        }
-        document.write("the random number is +math.floor(math.random() * 100 )");
-        var date = new date();
-        document.write("Today's date is" +date.getDate());
-    </script>
 </html>
