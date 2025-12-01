@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Javascript error handling</h1>
+        <p id="error_massage"></p>
+        <script>
+            try {
+                addalert("welcome guest");
+            }
+            catch (err) {
+                document.getElementById("error_massage").innerHTML = err.massage
+            }
+        </script>
+    </body>
+</html>
