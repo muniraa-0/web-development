@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <h2>Multiplication of the number 9</h2>
+    <p>Click the button to sort the array in ascending order</p>
+    <button onclick="ascendingOrder()">Ascending order</button>
+    <p id="result1"></p>
+    <p>Click the button to sort the array in descending order</p>
+    <button onclick="descendingOrder()">descending order</button>
+    <p id="result2"></p>
+    <script>
+        var points = [9,27,18,90,45,36,54,72,63];
+            document.getElementById("result1").innerHTML = points;
+            function ascendingOrder() {
+                points.sort(function (a, b) { return a - b });
+                document.getElementById("result1").innerHTML = points;
+            }
+            var points = [9, 27, 18, 90, 45, 36, 54, 72, 63];
+            document.getElementById("result2").innerHTML = points;
+            function descendingOrder() {
+                points.sort(function (a, b) { return b - a });
+                document.getElementById("result2").innerHTML = points;
+            }
+
+    </script>
+</body>
+
+</html>
