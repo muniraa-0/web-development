@@ -1,0 +1,11 @@
+  //print random set of numbers using loops
+    document.write("<h3>Random set of numbers:</h3>");
+    for (var i = 0; i < 10; i++) {
+            var randomNum = Math.random();//random number between 0-1
+    document.write(randomNum.toFixed(2) + "<br>");  //rounded to 2 decimal places
+        }
+        //print current date
+        document.write("<br>")
+            var today = new Date
+            document.write("<h3>current date:</h3>");
+            document.write(today.toDateString());
