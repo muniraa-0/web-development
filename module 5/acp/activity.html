@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <h1>Javascript error handling</h1>
+    <p id="lololo"></p>
+    <script>
+        try {
+            what("lololo");
+        }
+        catch (err) {
+            document.getElementById("lololo").innerHTML = err.massage
+        }
+    </script>
+</body>
+
+</html>
