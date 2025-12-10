@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <h1>JSON</h1>
+    <p id="result"></p>
+
+    <script>
+        let myOBJ = {name: "Tasmia",
+age:13, grade: 8}
+let myJSON = JSON.stringify(myOBJ) //converting from js object to JSON data
+
+
+let newOBJ = JSON.parse(myJSON) //converting back to js object
+
+document.getElementById
+("result").innerHTML = "My name is "+newOBJ.name +" years old. I study in grade "+newOBJ.grade +"."
+    </script>
+</html>
