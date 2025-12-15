@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <form name="myForm" onsubmit="validateForm()">
+        <label for="">Name</label>
+        <input type="text" name="fullname" id="fullname">
+        <input type="submit" value="submit">
+        <p id="message"></p>
+    </form>
+
+    <script>
+        function validateForm() {
+            let name =  document.forms
+           ["myForm"] ["fullname"].value;
+        
+        if (name == "") {
+            document.getElementById
+            ("message").innerHTML = "Name must be filled out";
+            return false;
+        }
+        else {
+                document.getElementById
+                    ("message").innerHTML = "Form fully submitted";
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>
