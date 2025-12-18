@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+
+    <form name="myForm" onsubmit="return validateForm()">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <input type="submit" value="submit">
+
+        <p id="message"></p>
+    </form>
+
+    <script>
+        function validateForm() {
+            let age = document.forms["myForm"]["age"].value;
+
+            if (age === "") {
+                document.getElementById("message").innerHTML = "Age must be filled out";
+                document.getElementById("message").style.color = "red";
+                return false;
+            }
+
+            if (age < 18) {
+                document.getElementById("message").innerHTML = "Access denied. Age must be 18 or above.";
+                document.getElementById("message").style.color = "red";
+                return false;
+            }
+            else {
+                document.getElementById("message").innerHTML = "Form successfully submitted!";
+                document.getElementById("message").style.color = "green";
+                return true;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
