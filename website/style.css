@@ -50,3 +50,10 @@ body {
     width: 100%;
     text-align: center;
 }
+
+.mm {
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 50%;
+}
