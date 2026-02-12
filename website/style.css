@@ -57,3 +57,46 @@ body {
     margin-left: 50px;
     width: 50%;
 }
+.section {
+    box-sizing: border-box;
+    justify-content: center;
+        display: flex;
+}
+.form {
+    width: 700px;
+    border: 2px solid #333;
+    margin-left: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 60%;
+    padding: 12px;
+    border:  1px solid #333;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #1affa3;
+    color: antiquewhite;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+ input[type=sumbit]:hover {
+    background-color: #1affa3;
+ }
+
+ @media screen and (max-width: 600px) {
+ input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+ }  
+ }
